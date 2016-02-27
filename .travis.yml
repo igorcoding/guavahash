@@ -10,6 +10,8 @@ python:
   - "3.5"
   - "3.5-dev"
   - "nightly"
+install:
+  - python setup.py -q install
 script: nosetests
 notifications:
   email: false

@@ -16,5 +16,5 @@ class TestCase(unittest.TestCase):
             state, n_buckets, expected = tuple(case)
             guava_res = guavahash.guava(state, n_buckets)
 
-            message = "({}, {}) => {} vs {}".format(state, n_buckets, expected, guava_res)
+            message = "({0}, {1}) => {2} vs {3}".format(state, n_buckets, expected, guava_res)
             self.assertEqual(guava_res, expected, message)

@@ -1,0 +1,8 @@
+# Include the license file
+include LICENSE.txt
+include README.md
+
+# Include the data files
+recursive-include src *
+recursive-include tests *.py
+recursive-include tests testdata.json

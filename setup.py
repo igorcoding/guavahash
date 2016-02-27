@@ -5,7 +5,7 @@ import os
 import shutil
 import platform
 
-version = '0.2'
+version = '0.3'
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 

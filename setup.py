@@ -5,7 +5,7 @@ import os
 import shutil
 import platform
 
-version = '0.1'
+version = '0.2'
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
@@ -49,7 +49,19 @@ setup(name='guavahash',
       ext_modules=[module],
       version=version,
       description='Google\'s Guava consistent hashing implementation',
-      long_description='Google\'s Guava consistent hashing implementation',
+      long_description="""Google's Guava consistent hashing implementation
+      
+      
+      Assign to `input` a "bucket" in the range `[0, buckets)`, in a uniform manner
+      that minimizes the need for remapping as `buckets` grows.
+      That is, `consistentHash(h, n)` equals:
+
+      * `n - 1`, with approximate probability `1/n`;
+      * `consistentHash(h, n - 1)`, otherwise (probability `1 - 1/n`).
+
+      See the [wikipedia article on consistent hashing](http://en.wikipedia.org/wiki/Consistent_hashing)
+      for more information.
+      """,
       author='igorcoding',
       author_email='igorcoding@gmail.com',
       url='https://github.com/igorcoding/guavahash',

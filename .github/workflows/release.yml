@@ -51,6 +51,7 @@ jobs:
       url: https://pypi.org/p/guavahash
     permissions:
       id-token: write
+      contents: write
     if: github.event_name == 'push' && contains(github.ref, 'refs/tags/')
 
     steps:

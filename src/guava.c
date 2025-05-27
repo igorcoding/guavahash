@@ -113,7 +113,6 @@ void initguavahash(void)
 
     if (module == NULL)
         INITERROR;
-    struct module_state *st = GETSTATE(module);
 
 #if PY_MAJOR_VERSION >= 3
     return module;

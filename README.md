@@ -1,5 +1,8 @@
 # guavahash
-[![Build Status](https://travis-ci.org/igorcoding/guavahash.svg?branch=master)](https://travis-ci.org/igorcoding/guavahash)
+
+[![Build](https://github.com/igorcoding/guavahash/actions/workflows/ci.yaml/badge.svg?branch=refresh)](https://github.com/igorcoding/guavahash/actions)
+[![PyPI](https://img.shields.io/pypi/v/guavahash.svg)](https://pypi.python.org/pypi/guavahash
+)
 
 Google's Guava consistent hashing implementation
 

@@ -1,6 +1,6 @@
 # guavahash
 
-[![Build](https://github.com/igorcoding/guavahash/actions/workflows/ci.yaml/badge.svg?branch=refresh)](https://github.com/igorcoding/guavahash/actions)
+[![Build](https://github.com/igorcoding/guavahash/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/igorcoding/guavahash/actions)
 [![PyPI](https://img.shields.io/pypi/v/guavahash.svg)](https://pypi.python.org/pypi/guavahash
 )
 

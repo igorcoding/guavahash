@@ -1,0 +1,15 @@
+[package]
+name = "guavahash"
+version = "1.0.2"
+edition = "2021"
+description = "Google's Guava consistent hashing implementation"
+license = "MIT"
+authors = ["igorcoding <igorcoding@gmail.com>"]
+keywords = ["guava", "consistent", "hashing", "hash", "digest"]
+
+[lib]
+name = "guavahash"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.22", features = ["extension-module"] }

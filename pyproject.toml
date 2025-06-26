@@ -29,7 +29,6 @@ test = ["pytest>=3.0"]
 [project.urls]
 Homepage = "https://github.com/igorcoding/guavahash"
 Repository = "https://github.com/igorcoding/guavahash"
-Download = "https://github.com/igorcoding/guavahash/tarball/v0.4"
 
 [tool.maturin]
 features = ["pyo3/extension-module"]
